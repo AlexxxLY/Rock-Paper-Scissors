@@ -1,3 +1,9 @@
+<?php
+session_start();
+//  $a = $_REQUEST['a'] ?? null;
+//  $b = $_REQUEST['b'] ?? null;
+//  if()
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +13,16 @@
     <title>Rock-Paper-Scissors</title>
 </head>
 <body>
-    
+<h1>Wellcome in the Game "Rock-Paper-Scissors"</h1>
+
+<!-- <pre>
+
+</pre> -->
+
+<form action="" method="GET">
+	  <input type="text" name="user" value="">
+	  <input type="submit">
+      </form>
+
 </body>
 </html>
